@@ -523,10 +523,6 @@
                 this.hide();
             }
 
-            if ($(e.target).hasClass('datepicker-clear') || $(e.target).parent().hasClass('datepicker-clear')){
-                //HereisNothing
-            }
-
             var target = $(e.target).closest('span, td, th');
             if (target.length == 1) {
                 switch(target[0].nodeName.toLowerCase()) {
