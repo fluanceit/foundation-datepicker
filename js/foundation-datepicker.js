@@ -69,7 +69,7 @@
 			this.picker.find('.prev i, .next i')
 						.toggleClass('fa fa-chevron-left fa-chevron-right').toggleClass('fa-chevron-left fa-chevron-right');
 		}
-		$(document).on('mousedown', function (e) {
+		$(document).on('mousedown touchstart', function (e) {
 			// Clicked outside the datepicker, hide it
 			if ($(e.target).closest('.datepicker.datepicker-inline, .datepicker.datepicker-dropdown').length === 0) {
 				that.hide();
