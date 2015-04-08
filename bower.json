@@ -1,10 +1,7 @@
 {
   "name": "foundation-datepicker-fluance",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "homepage": "https://github.com/fluanceit/foundation-datepicker",
-  "authors": [
-    "Peter Beňo <najlepsiwebdesigner@gmail.com>"
-  ],
   "description": "Foundation datepicker jQuery plugin",
   "main": ["js/foundation-datepicker.js","stylesheets/foundation-datepicker.css"],
   "keywords": [
