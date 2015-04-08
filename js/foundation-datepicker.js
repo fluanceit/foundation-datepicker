@@ -1,4 +1,4 @@
-/* =========================================================
+﻿/* =========================================================
  * foundation-datepicker.js
  * Copyright 2015 Peter Beno, najlepsiwebdesigner@gmail.com, @benopeter
  * project website http://foundation-datepicker.peterbeno.com
@@ -389,7 +389,6 @@
                 currentDate = this.date && this.date.valueOf(),
                 cleartxt = dates[this.language].clear || dates['en'].clear || '',
                 today = new Date();
-                console.log(cleartxt);
             this.picker.find('.datepicker-days thead th.date-switch')
                         .text(dates[this.language].months[month]+' '+year);
             this.picker.find('tfoot th.today')
